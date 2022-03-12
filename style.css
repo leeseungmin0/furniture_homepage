@@ -105,3 +105,22 @@ header{
     align-items: center;
 }
 
+.banner{
+    height: 40vh;
+    background-color: #efca57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+
+.banner p{
+    width: 50%;
+    font-size: 18px;
+}
