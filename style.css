@@ -91,11 +91,19 @@ header{
     background-position: center center;
 }
 
+
 .home__text{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+.home__text.visible{
+    opacity: 1;
 }
 
 .banner{
