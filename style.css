@@ -78,23 +78,12 @@ header{
     background-position: center center;
 }
 
-.home__living2__text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .home__sofa{
     background-image: url(/img/home_img3.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
-.home__sofa__text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .home__sofa2{
     background-image: url(/img/home_img4.jpeg);
@@ -102,10 +91,11 @@ header{
     background-position: center center;
 }
 
-.home__sofa2__text{
+.home__text{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .banner{
